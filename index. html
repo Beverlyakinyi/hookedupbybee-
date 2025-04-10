@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HookedUpByBee</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="overlay">
+      <h1>HookedUpByBee</h1>
+      <p>Your cozy space for handmade magic.</p>
+      <a href="#orders" class="btn">Place an Order</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m Bee! I craft each piece with love and care, creating unique crochet items—from tote bags to cozy sweaters. Every stitch tells a story, and I can’t wait to share my passion with you.</p>
+  </section>
+
+  <!-- Featured Products -->
+  <section id="products" class="products">
+    <h2>Featured Creations</h2>
+    <div class="product-grid">
+      <div class="product-item">
+        <img src="product1.jpg" alt="Crochet Tote Bag" />
+        <h3>Crochet Tote Bag</h3>
+      </div>
+      <div class="product-item">
+        <img src="product2.jpg" alt="Cozy Sweater" />
+        <h3>Cozy Sweater</h3>
+      </div>
+      <div class="product-item">
+        <img src="product3.jpg" alt="Stylish Skirt" />
+        <h3>Stylish Skirt</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order Section -->
+  <section id="orders" class="orders">
+    <h2>Place an Order</h2>
+    <form action="#" method="post">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" required/>
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required/>
+
+      <label for="item">What Would You Like?</label>
+      <textarea id="item" name="item" rows="3" required></textarea>
+
+      <button type="submit">Send Order</button>
+    </form>
+  </section>
+
+  <!-- Tutorials Section -->
+  <section id="tutorials" class="tutorials">
+    <h2>Tutorial Links</h2>
+    <ul>
+      <li><a href="#" target="_blank">Beginner Crochet Tutorial</a></li>
+      <li><a href="#" target="_blank">Advanced Stitch Techniques</a></li>
+      <li><a href="#" target="_blank">Creative Crochet Projects</a></li>
+    </ul>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <h2>What Clients Say</h2>
+    <div class="testimonial-item">
+      <p>“Bee’s crochet bag is my favorite! The quality and care are unmatched.”</p>
+      <span>— Jane Doe</span>
+    </div>
+    <div class="testimonial-item">
+      <p>“I ordered a custom sweater and it fits perfectly. Highly recommend!”</p>
+      <span>— Mary Smith</span>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <h3>Contact Me</h3>
+      <p>WhatsApp: <a href="https://wa.me/254715656669" target="_blank">0715656669</a></p>
+      <p>Email: <a href="mailto:hookedbybee8@gmail.com">hookedbybee8@gmail.com</a></p>
+      <div class="social">
+        <a href="#" aria-label="Instagram">Instagram</a> |
+        <a href="#" aria-label="Facebook">Facebook</a>
+      </div>
+    </div>
+    <p class="copyright">© 2025 HookedUpByBee. All rights reserved.</p>
+  </footer>
+</body>
+</html>
